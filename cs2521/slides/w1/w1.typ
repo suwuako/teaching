@@ -474,7 +474,7 @@ struct list {
 #grid(
   text(size: 16pt)[
     ```c
-void *listDelete(struct list *list, int value) {
+void listDelete(struct list *list, int value) {
   struct node *head = list->head;
   // if list is empty
   if (head == NULL) {
