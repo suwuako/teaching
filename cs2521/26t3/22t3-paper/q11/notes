@@ -1,0 +1,19 @@
+start = 25
+end = 40
+
+0 25 0 0 0 40  25 0 0 0 0 0 0 0 40 1 25 0 40
+                              ^
+0 25 0 0 40
+0 1  2 3 4
+
+end - start + 1
+
+start: 2
+end: 10
+
+two factors 
+- finding the shortest sublist
+    - what is the current shortest sublist we've seen
+    - compare new shorest sublists we check in our current iteration to see if its <
+      current shortest sublist stoerd
+- multiple shortest sublists, tkae first occurence
